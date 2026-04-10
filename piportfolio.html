@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="pages">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand home-logo" href="#home"><i class="fa-solid fa-cat"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                <i class="fa-solid fa-bars nav-tog-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#art">Art & Poetry</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home" class="home-section d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h1 class="main-title">welcome to my</h1>
+                        <h2 class="main-sub">Portfolio :)
+                            <hr />
+                        </h2>
+                        <p class="name">Piyusha Khandavilli</p>
+                        <div class="d-flex flex-row mt-4">
+                            <a href="#projects" class="btn-mint mr-3 mt-2">view my projects</a>
+                            <a href="#contact" class="btn-white mt-2">contact me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-pad">
+            <div class="container">
+                <p class="section-label">01 / ABOUT ME</p>
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-5">
+                        <div class="about-card text-center">
+                            <p class="about-card-name">Piyusha Khandavilli</p>
+                            <p class="about-card-role">MEng - Computer Science and Software Engineering</p>
+                            <div class="about-tags d-flex flex-wrap justify-content-center">
+                                <span class="tag">Java</span>
+                                <span class="tag">C</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">HTML & CSS</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">C#</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h2 class="section-title">Hello, world...</h2>
+                        <p class="about-text">
+                            I am a 2nd Year computer science student at University of Birmingham Dubai
+                            and also learn different concepts at NxtWave Academy. I love to code for fun and make games, apart
+                            from doing assingments and exams. Although definetely debugging stresses me out a lot of time :(
+                        </p>
+                        <p class="about-text">
+                            I have a lot of hobbies that I do during free time, like drawing, painting, knitting, reading books,
+                            listening to music, dance, writing poems and much more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-card text-center">
+                    <p class="quote-deco">"</p>
+                    <input type="radio" name="quote" id="q1" class="quote-radio" checked>
+                    <input type="radio" name="quote" id="q2" class="quote-radio">
+                    <input type="radio" name="quote" id="q3" class="quote-radio">
+                    <input type="radio" name="quote" id="q4" class="quote-radio">
+                    <input type="radio" name="quote" id="q5" class="quote-radio">
+                    <input type="radio" name="quote" id="q6" class="quote-radio">
+                    <div class="quotes-wrapper">
+                        <p class="quote-text">The computer was born to solve problems that did not exist before.</p>
+                        <p class="quote-text">Creativity is intelligence having fun. So is debugging at 3am.</p>
+                        <p class="quote-text">Code is like poetry — each line should do something beautiful.</p>
+                        <p class="quote-text">In the middle of every difficulty lies opportunity — and a Stack Overflow answer.</p>
+                        <p class="quote-text">Art enables us to find ourselves and lose ourselves at the same time.</p>
+                        <p class="quote-text">The best error message is the one that never shows up.</p>
+                    </div>
+                    <div class="d-flex justify-content-center quote-dots">
+                        <label for="q1" class="qdot"></label>
+                        <label for="q2" class="qdot"></label>
+                        <label for="q3" class="qdot"></label>
+                        <label for="q4" class="qdot"></label>
+                        <label for="q5" class="qdot"></label>
+                        <label for="q6" class="qdot"></label>
+                    </div>
+                    <p class="quote-hint">^^ carousel of quotes ^^</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-pad">
+            <div class="container">
+                <p class="section-label">02 / CODED STUFF</p>
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="proj-tabs">
+                    <input type="radio" name="proj-cat" id="cat-all" checked>
+                    <input type="radio" name="proj-cat" id="cat-web">
+                    <input type="radio" name="proj-cat" id="cat-collab">
+                    <input type="radio" name="proj-cat" id="cat-games">
+
+                    <div class="d-flex flex-wrap proj-cat-labels">
+                        <label for="cat-all" class="proj-cat-label">All</label>
+                        <label for="cat-web" class="proj-cat-label">Web Development</label>
+                        <label for="cat-collab" class="proj-cat-label">Group Projects</label>
+                        <label for="cat-games" class="proj-cat-label">Mini Games</label>
+                    </div>
+
+                    <div class="proj-tab-content">
+
+                        <div class="proj-group" id="group-all">
+                            <div class="row gy-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #b2f0e0">
+                                            <span class="proj-icon"><i class="fa-solid fa-microphone"></i>️</span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">Echo — Podcast App</h5>
+                                            <p class="proj-desc">A fully functional podcast streaming UI with sidebar navigation, fake audio controls, and library management. Pure HTML + CSS.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: ffd6e8">
+                                            <span class="proj-icon"><i class="fa-solid fa-thumbtack"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">I-nterest</h5>
+                                            <p class="proj-desc">A personal website with my own curated pins. This is a space to collect and share things that inspire me from around the web.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #d6f0ff">
+                                            <span class="proj-icon"><i class="fa-solid fa-file"></i>️</span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">This Portfolio!</h5>
+                                            <p class="proj-desc">You're looking at it right now. A personal portfolio about myself built with HTML, CSS, and Bootstrap.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background:#d6ffe8">
+                                            <span class="proj-icon"><i class="fa-solid fa-people-group"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge collab-badge">Collaborative</span>
+                                            <h5 class="proj-title">Code&Cure</h5>
+                                            <p class="proj-desc">An interactive web app helping children with autism learn phoneme sounds through gamification, real-time speech recognition, and emotion-aware adaptive UI. Quests, rewards & progress tracking!</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #ffe8d6">
+                                            <span class="proj-icon"><i class="fa-solid fa-people-roof"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge collab-badge">Collaborative</span>
+                                            <h5 class="proj-title">Pixel8</h5>
+                                            <p class="proj-desc">A Social Signal Dashboard for Mashreq Bank built at The Bounty Challenge Hackathon. Analyzes aggregated public chatter, explains signals, shows confidence levels, and routes insights to human reviewers — fully human-in-the-loop.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #ffd6f0">
+                                            <span class="proj-icon"><i class="fa-solid fa-staff-snake"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge game-badge">Mini Game</span>
+                                            <h5 class="proj-title">slitherrrrr_pink.io</h5>
+                                            <p class="proj-desc">A pink-themed version of the classic slither.io snake game, built in C#. Cute but competitive</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-group" id="group-web">
+                            <div class="row gy-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #b2f0e0">
+                                            <span class="proj-icon"><i class="fa-solid fa-microphone"></i>️</span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">Echo — Podcast App</h5>
+                                            <p class="proj-desc">A fully functional podcast streaming UI with sidebar navigation, fake audio controls, and library management. Pure HTML + CSS.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: ffd6e8">
+                                            <span class="proj-icon"><i class="fa-solid fa-thumbtack"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">I-nterest</h5>
+                                            <p class="proj-desc">A personal website with my own curated pins. This is a space to collect and share things that inspire me from around the web.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #d6f0ff">
+                                            <span class="proj-icon"><i class="fa-solid fa-file"></i>️</span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge web-badge">Web Dev</span>
+                                            <h5 class="proj-title">This Portfolio!</h5>
+                                            <p class="proj-desc">You're looking at it right now. A personal portfolio about myself built with HTML, CSS, and Bootstrap.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-group" id="group-collab">
+                            <div class="row gy-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background:#d6ffe8">
+                                            <span class="proj-icon"><i class="fa-solid fa-people-group"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge collab-badge">Collaborative</span>
+                                            <h5 class="proj-title">Code&Cure</h5>
+                                            <p class="proj-desc">An interactive web app helping children with autism learn phoneme sounds through gamification, real-time speech recognition, and emotion-aware adaptive UI. Quests, rewards & progress tracking!</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #ffe8d6">
+                                            <span class="proj-icon"><i class="fa-solid fa-people-roof"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge collab-badge">Collaborative</span>
+                                            <h5 class="proj-title">Pixel8</h5>
+                                            <p class="proj-desc">A Social Signal Dashboard for Mashreq Bank built at The Bounty Challenge Hackathon. Analyzes aggregated public chatter, explains signals, shows confidence levels, and routes insights to human reviewers — fully human-in-the-loop.</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="proj-group" id="group-games">
+                            <div class="row gy-4">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="proj-card">
+                                        <div class="proj-card-top" style="background: #ffd6f0">
+                                            <span class="proj-icon"><i class="fa-solid fa-staff-snake"></i></span>
+                                        </div>
+                                        <div class="proj-card-body">
+                                            <span class="proj-badge game-badge">Mini Game</span>
+                                            <h5 class="proj-title">slitherrrrr_pink.io</h5>
+                                            <p class="proj-desc">A pink-themed version of the classic slither.io snake game, built in C#. Cute but competitive</p>
+                                            <div class="proj-links">
+                                                <p class="proj-link"><i class="fa-brands fa-github"></i> Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-pad skills-section">
+            <div class="container">
+                <p class="section-label">03 / WHAT DO I KNOW</p>
+                <h2 class="section-title">My Skills.</h2>
+                <div class="row gy-4 mt-2">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-cat-card">
+                            <h5 class="skill-cat-title">Languages</h5>
+                            <div class="skill-badges">
+                                <span class="skill-badge">Python</span>
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">C</span>
+                                <span class="skill-badge">Haskell</span>
+                                <span class="skill-badge">C#</span>
+                                <span class="skill-badge">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-cat-card">
+                            <h5 class="skill-cat-title">Web Development</h5>
+                            <div class="skill-badges">
+                                <span class="skill-badge">HTML</span>
+                                <span class="skill-badge">CSS</span>
+                                <span class="skill-badge">Bootstrap</span>
+                                <span class="skill-badge">Responsive Design</span>
+                                <span class="skill-badge">Flexbox</span>
+                                <span class="skill-badge">CSS Grid</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-cat-card">
+                            <h5 class="skill-cat-title">CS Concepts</h5>
+                            <div class="skill-badges">
+                                <span class="skill-badge">Data Structures</span>
+                                <span class="skill-badge">Operating Systems</span>
+                                <span class="skill-badge">OOP</span>
+                                <span class="skill-badge">Machine Learning</span>
+                                <span class="skill-badge">AI</span>
+                                <span class="skill-badge">CyberSecurity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-cat-card">
+                            <h5 class="skill-cat-title">Tools</h5>
+                            <div class="skill-badges">
+                                <span class="skill-badge">GitHub</span>
+                                <span class="skill-badge">VS Code</span>
+                                <span class="skill-badge">Figma</span>
+                                <span class="skill-badge">Linux CLI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="art" class="section-pad art-section">
+            <div class="container">
+                <p class="section-label">04 / MY OTHER SIDE</p>
+                <h2 class="section-title">Poetry & Art.</h2>
+                <p class="section-sub">let's check out some of our hobbies, shall we?</p>
+
+                <div class="hobby-tabs mt-5">
+                    <input type="radio" name="hobby" id="tab-poetry" checked>
+                    <input type="radio" name="hobby" id="tab-art">
+
+                    <div class="d-flex hobby-tab-labels">
+                        <label for="tab-poetry" class="hobby-label"><i class="fa-solid fa-pen-nib"></i>Poetry</label>
+                        <label for="tab-art" class="hobby-label"><i class="fa-solid fa-paintbrush"></i>Visual Art</label>
+                    </div>
+
+                    <div class="hobby-content-wrapper">
+
+                        <div class="hobby-content poetry-content">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <div class="poem-card">
+                                        <p class="poem-number">1.</p>
+                                        <h5 class="poem-title">sorrow.</h5>
+                                        <p class="poem-body">
+                                            I name our child despair<br />
+                                            After the hopeful drain<br />
+                                            That we were accustomed to-<br />
+                                            All the lies combined<br />
+                                            Gave rise to the dark truth<br />
+                                            That crept beneath our<br />
+                                            Sorrowful ventures of riots.
+                                        </p>
+                                        <p class="poem-tag">— 26/01/24</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="poem-card">
+                                        <p class="poem-number">2.</p>
+                                        <h5 class="poem-title">can paint yearn back?</h5>
+                                        <p class="poem-body">
+                                            how a canvas yearns for paint<br />
+                                            as it stays blank in silence<br />
+                                            until an artist picks up their brush<br />
+                                            and listen to it's voice<br />
+                                            to fill it with soul <br />
+                                            and make it full of life.
+                                        </p>
+                                        <p class="poem-tag">— 5/10/24</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hobby-content art-content">
+                            <div class="row gy-4">
+                                <div class="col-md-4">
+                                    <div class="art-card">
+                                        <div class="art-placeholder" style="background: linear-gradient(135deg, #b2f0d8 0%, #e0fff2 100%)">
+                                            <span class="art-emoji"><i class="fa-solid fa-leaf"></i></span>
+                                        </div>
+                                        <div class="art-info">
+                                            <p class="art-name">Entomology Studies - Art of Insects</p>
+                                            <p class="art-medium">Ink on paper · 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="art-card">
+                                        <div class="art-placeholder" style="background: linear-gradient(135deg, #d6ccff 0%, #ede8ff 100%)">
+                                            <span class="art-emoji"><i class="fa-solid fa-eye"></i></span>
+                                        </div>
+                                        <div class="art-info">
+                                            <p class="art-name">Anatomy of the Face</p>
+                                            <p class="art-medium">Watercolor · 2025</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="art-card">
+                                        <div class="art-placeholder" style="background: linear-gradient(135deg, #b2d8ff 0%, #e0f0ff 100%)">
+                                            <span class="art-emoji"><i class="fa-solid fa-lemon"></i></span>
+                                        </div>
+                                        <div class="art-info">
+                                            <p class="art-name">Tangerines & Ghibli</p>
+                                            <p class="art-medium">Gouache · 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="art-card">
+                                        <div class="art-placeholder" style="background: linear-gradient(135deg, #c8f5d0 0%, #eafff0 100%)">
+                                            <span class="art-emoji"><i class="fa-regular fa-face-grin"></i></span>
+                                        </div>
+                                        <div class="art-info">
+                                            <p class="art-name">Self Potrait</p>
+                                            <p class="art-medium">Mixed media · 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-pad contact-section">
+            <div class="container">
+                <p class="section-label">05 / LET'S CONNECT</p>
+                <h2 class="section-title">Say Hello.</h2>
+                <div class="row gy-4 mt-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <a href="https://linkedin.com/in/piyusha-khandavilli" target="_blank" class="contact-card-link">
+                            <div class="contact-card">
+                                <div class="contact-icon linkedin-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <h5 class="contact-title">LinkedIn</h5>
+                                    <p class="contact-sub">Connect with me on LinkedIn</p>
+                                    <p class="contact-handle">linkedin.com/in/piyusha-khandavilli</p>
+                                </div>
+                                <i class="fa-solid fa-arrow-right contact-arrow ml-auto"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="https://github.com/piyusha-k" target="_blank" class="contact-card-link">
+                            <div class="contact-card">
+                                <div class="contact-icon github-icon"><i class="fa-brands fa-github"></i></div>
+                                <div>
+                                    <h5 class="contact-title">GitHub</h5>
+                                    <p class="contact-sub">Browse my repositories</p>
+                                    <p class="contact-handle">github.com/piyusha-k</p>
+                                </div>
+                                <i class="fa-solid fa-arrow-right contact-arrow ml-auto"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="contact-card-link">
+                            <div class="contact-card">
+                                <div class="contact-icon email-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h5 class="contact-title">Email</h5>
+                                    <p class="contact-sub">For serious enquiries</p>
+                                </div>
+                                <i class="fa-solid fa-arrow-right contact-arrow ml-auto"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="contact-tagline text-center mt-5">
+                    thank you for viewing my portfolio! <i class="fa-solid fa-cat"></i>
+                </p>
+            </div>
+        </section>
+
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
